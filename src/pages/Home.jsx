@@ -11,6 +11,7 @@ import {SearchContext} from "../App";
 import axios from "axios";
 
 
+
 const Home = () => {
     
     const {categoryId, currentPage} = useSelector((state) => state.filter)

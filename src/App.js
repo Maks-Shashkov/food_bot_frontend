@@ -2,6 +2,8 @@ import React from "react";
 import Home from "./pages/Home";
 import Card from "./pages/Card";
 import NotFound from "./pages/NotFound";
+import Header from "./components/Header";
+import './fonts/nextArt/NEXT ART_SemiBold.otf'
 
 import {Route, Routes} from "react-router-dom";
 
@@ -14,6 +16,7 @@ function App() {
     const [searchValue, setSearchValue] = React.useState('');
     return (
         <div className="wrapper">
+            <Header/>
             <SearchContext.Provider value={{searchValue, setSearchValue}}>
                 <div className="content">
                     <Routes>
