@@ -25,6 +25,7 @@ body {
 
 .content {
   padding: 40px 0;
+  background-color: #F1F1F1CC;
 
   &__title {
     font-weight: 800;
@@ -38,6 +39,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 11px;
+
 
     @media (max-width: 1400px) {
       grid-template-columns: repeat(3, 1fr);

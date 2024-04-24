@@ -1,0 +1,65 @@
+@import '../variables';
+
+.product {
+  height: 211px;
+  width: 152px;
+  display: block;
+  border-radius: 10px;
+  background-color: white;
+  &__img {
+    border-radius: 10px 10px 0 0;
+    height: 120px;
+    background-color: #232323;
+  }
+  &__info {
+    display: block;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  &__name {
+    font-size: 15px;
+    font-family: terminatorgen;
+    margin-top: 3px;
+    letter-spacing: 3px;
+  }
+  &__description {
+    font-family: Roboto-Regular;
+    color: #5F5F5F;
+    font-size: 6px;
+    margin-top: 3px;
+  }
+  &__price {
+
+    font-family: Terminatorgen;
+    font-size: 14px;
+    margin-top: 3px;
+  }
+  &__cont {
+    display: flex;
+    margin-top: 3px;
+
+    &__add {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      color: #ABABAB;
+      text-align: center;
+      cursor: pointer;
+      font-size: 8px;
+      height: 23px;
+      width: 102px;
+      p {
+        color: #4D4D4D;
+        font-family: ART_Bold;
+        letter-spacing: 2px;
+      }
+    }
+    &__like {
+      margin-left: 10px;
+    }
+  }
+
+}

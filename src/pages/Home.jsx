@@ -97,14 +97,14 @@ const Home = () => {
     }
     
     return (
-        <div className="container">
+        <div className='content'>
             <div className="content__top">
                 <Categories value={categoryId} onChangeCategory = {onChangeCategory}/>
                 {/*в данном случае мы используем onClickCategory и в качестве второго параметра закладываем стрелочную функцию которая
                 возвращает id элементов категорий в данном случае это i см categories*/}
             </div>
             <h2 className="content__title">Все пиццы</h2>
-            <div className="content__items">
+            <div className="content__items container">
                 {
                     content
                     
